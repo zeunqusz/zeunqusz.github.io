@@ -6,4 +6,6 @@ url: "https://your-username.github.io" # 본인의 GitHub Pages 주소
 theme: monophase # Monophase 테마 적용
 
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: zivhub/monophase@main
