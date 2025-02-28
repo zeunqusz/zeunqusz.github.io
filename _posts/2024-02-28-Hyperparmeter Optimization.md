@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hyperparameter Optimization
-date: 2025-02-28
+date: 2025-02-28 12:00:00 +0900
 categories: [Machine Learning, Theory]
 tags: [Hyperparameter, Grid Search, Random Search, Bayesian Optimization, Optuna]
 ---
