@@ -2,61 +2,30 @@
 layout: default
 title: Home
 ---
+
 <h1>{{ site.title }}</h1>
 <p>{{ site.description }}</p>
 
 <!-- 📌 카테고리 목록 추가 -->
 <h2>📂 카테고리 목록</h2>
 <ul>
-  {% for category in site.categories %}
-    <li><a href="{{ site.baseurl }}/categories/{{ category[0] | slugify }}/">{{ category[0] }}</a> ({{ category[1] | size }})</li>
+  {% for category in site.data.categories %}
+    <li>
+      <strong>{{ category.name }}</strong>
+      <ul>
+        {% for subcategory in category.subcategories %}
+          <li><a href="{{ site.baseurl }}/categories/{{ subcategory.slug }}/">{{ subcategory.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
   {% endfor %}
+  <li><strong><a href="{{ site.baseurl }}/categories/project/">Project</a></strong></li>
 </ul>
 
-<!-- 📌 최신 포스트 목록 -->
+<!-- 📌 최신 글 목록 -->
 <h2>📝 최신 글</h2>
 <ul>
   {% for post in site.posts %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y-%m-%d" }})</li>
   {% endfor %}
 </ul>
-<div class="posts">
-  {% assign posts = site.posts %}
-  {% if paginator %}
-    {% assign posts = paginator.posts %}
-  {% endif %}
-  {% for post in posts %}
-    <div class="post">
-      <h2 class="post-title">
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title }}
-        </a>
-      </h2>
-
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-meta">{{ post.date | date_to_string }}</time>
-
-      <p class="post-excerpt">
-        {% if post.description %}
-          {{ post.description | strip_html }}
-        {% else %}
-          {{ post.excerpt | strip_html }}
-        {% endif %}
-      </p>
-    </div>
-  {% endfor %}
-</div>
-
-{% if paginator %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
-    {% else %}
-      <span class="pagination-item older">Older</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | relative_url }}">Newer</a>
-    {% else %}
-      <span class="pagination-item newer">Newer</span>
-    {% endif %}
-  </div>
-{% endif %}
