@@ -1,0 +1,20 @@
+- name: Artificial Intelligence
+  slug: artificial-intelligence
+  subcategories:
+    - name: Machine Learning Theory
+      slug: machine-learning-theory
+    - name: Paper Review
+      slug: paper-review
+    - name: Trouble Shooting
+      slug: trouble-shooting
+
+- name: Problem Solving
+  slug: problem-solving
+  subcategories:
+    - name: SQL
+      slug: sql
+    - name: Algorithm
+      slug: algorithm
+
+- name: Project
+  slug: project
