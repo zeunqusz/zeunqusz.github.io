@@ -176,12 +176,14 @@ Optuna의 주요 특징
 - TensorFlow, PyTorch, XGBoost, LightGBM 등 다양한 라이브러리와의 통합을 지원하며, 단일 머신부터 분산 환경까지 다양한 설정에서 활용할 수 있다.
 
 
-## 참고문헌 (References)
+## 📌 참고문헌 (References)
 
 <details>
-  <summary>참고문헌 보기 📖</summary>
+  <summary>📖 참고문헌 보기</summary>
 
-  - Liashchynskyi, P., & Liashchynskyi, P. (2019). **Grid Search, Random Search, Genetic Algorithm: A Big Comparison for NAS.**  
+  ### **📌 Grid Search 관련 문헌**
+  - Liashchynskyi, P., & Liashchynskyi, P. (2019).  
+    **Grid Search, Random Search, Genetic Algorithm: A Big Comparison for NAS.**  
     *arXiv preprint arXiv:1912.06059.*  
     [[논문 링크]](https://arxiv.org/abs/1912.06059?utm_source=chatgpt.com)
 
@@ -193,8 +195,9 @@ Optuna의 주요 특징
 
   ---
 
-  - **Bergstra, J., & Bengio, Y. (2012).**  
-    *Random Search for Hyper-Parameter Optimization.*  
+  ### **📌 Random Search 관련 문헌**
+  - Bergstra, J., & Bengio, Y. (2012).  
+    **Random Search for Hyper-Parameter Optimization.**  
     *Journal of Machine Learning Research, 13, 281-305.*  
     [[논문 링크]](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf?utm_source=chatgpt.com)
 
@@ -206,13 +209,14 @@ Optuna의 주요 특징
 
   ---
 
-  - **Wang, X., Jin, Y., Schmitt, S., & Olhofer, M. (2022).**  
-    *Recent Advances in Bayesian Optimization.*  
+  ### **📌 Bayesian Optimization 관련 문헌**
+  - Wang, X., Jin, Y., Schmitt, S., & Olhofer, M. (2022).  
+    **Recent Advances in Bayesian Optimization.**  
     *arXiv preprint arXiv:2206.03301.*  
     [[논문 링크]](https://arxiv.org/abs/2206.03301?utm_source=chatgpt.com)
 
-  - **Paulson, J. A., & Tsay, C. (2024).**  
-    *Bayesian Optimization as a Flexible and Efficient Design Framework for Sustainable Process Systems.*  
+  - Paulson, J. A., & Tsay, C. (2024).  
+    **Bayesian Optimization as a Flexible and Efficient Design Framework for Sustainable Process Systems.**  
     *arXiv preprint arXiv:2401.16373.*  
     [[논문 링크]](https://arxiv.org/abs/2401.16373?utm_source=chatgpt.com)
 
@@ -221,20 +225,21 @@ Optuna의 주요 특징
     *Wikipedia, The Free Encyclopedia.*  
     [[위키백과 링크]](https://en.wikipedia.org/wiki/Bayesian_optimization?utm_source=chatgpt.com)
 
-  - **Brochu, E., Cora, V. M., & de Freitas, N. (2010).**  
-    *A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning.*  
+  - Brochu, E., Cora, V. M., & de Freitas, N. (2010).  
+    **A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning.**  
     *arXiv preprint arXiv:1012.2599.*  
     [[논문 링크]](https://arxiv.org/abs/1012.2599?utm_source=chatgpt.com)
 
   ---
 
-  - **Akiba, T., Sano, S., Yanase, T., Ohta, T., & Koyama, M. (2019).**  
-    *Optuna: A Next-generation Hyperparameter Optimization Framework.*  
+  ### **📌 Optuna 관련 문헌**
+  - Akiba, T., Sano, S., Yanase, T., Ohta, T., & Koyama, M. (2019).  
+    **Optuna: A Next-generation Hyperparameter Optimization Framework.**  
     *arXiv preprint arXiv:1907.10902.*  
     [[논문 링크]](https://arxiv.org/abs/1907.10902?utm_source=chatgpt.com)
 
-  - **Shekhar, S., Bansode, A., & Salim, A. (2022).**  
-    *A Comparative Study of Hyper-Parameter Optimization Tools.*  
+  - Shekhar, S., Bansode, A., & Salim, A. (2022).  
+    **A Comparative Study of Hyper-Parameter Optimization Tools.**  
     *arXiv preprint arXiv:2201.06433.*  
     [[논문 링크]](https://arxiv.org/abs/2201.06433?utm_source=chatgpt.com)
 
