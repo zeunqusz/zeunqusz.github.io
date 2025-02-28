@@ -7,3 +7,9 @@ plugins:
   - jekyll-remote-theme
 
 remote_theme: zivhub/monophase@main
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+paginate: 5 # 한 페이지에 표시할 글 개수
+future: true # 미래 날짜의 글을 표시할지 여부
