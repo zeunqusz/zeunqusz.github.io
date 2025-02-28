@@ -11,12 +11,12 @@ tags: [Hyperparameter, Grid Search, Random Search, Bayesian Optimization, Optuna
 
 하이퍼파라미터(Hyperparameter)란 모델 학습 전 사용자가 직접 설정해야 하는 값으로, 모델의 성능과 학습 과정에 큰 영향을 미친다. 이는 모델이 학습을 통해 자동으로 최적화하는 파라미터와 구별된다.
 ### 하이퍼파라미터 VS 파라미터 비교
-| 구분 | 하이퍼파라미터 (Hyperparameter) | 파라미터 (Parameter) |
-|------|--------------------------------|----------------------|
-| **정의** | 사용자가 직접 설정하는 값 | 모델이 학습을 통해 자동으로 최적화하는 값 |
-| **예시** | 학습률 (Learning Rate), 배치 크기 (Batch Size), 은닉층 개수 | 가중치 (Weight), 편향 (Bias) |
+| 구분          | 하이퍼파라미터 (Hyperparameter) | 파라미터 (Parameter) |
+|--------------|--------------------------------|----------------------|
+| **정의**     | 사용자가 직접 설정하는 값     | 모델이 학습을 통해 자동으로 최적화하는 값 |
+| **예시**     | 학습률 (Learning Rate), 배치 크기 (Batch Size), 은닉층 개수 | 가중치 (Weight), 편향 (Bias) |
 | **조정 방법** | Grid Search, Random Search, Bayesian Optimization | 역전파 (Backpropagation), Gradient Descent |
-| **학습 과정** | 학습 전에 결정됨 | 학습하면서 업데이트됨 |
+| **학습 과정** | 학습 전에 결정됨              | 학습하면서 업데이트됨 |
 
 ## 하이허파라미터 최적화의 필요성
 
