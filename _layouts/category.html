@@ -4,8 +4,9 @@ layout: default
 
 <h1>📂 {{ page.title }} 카테고리</h1>
 
+{% assign category_name = page.category %}
 <ul>
-  {% for post in site.categories[page.category] %}
+  {% for post in site.categories[category_name] %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y-%m-%d" }})</li>
   {% endfor %}
 </ul>
