@@ -176,74 +176,70 @@ Optuna의 주요 특징
 - TensorFlow, PyTorch, XGBoost, LightGBM 등 다양한 라이브러리와의 통합을 지원하며, 단일 머신부터 분산 환경까지 다양한 설정에서 활용할 수 있다.
 
 
-## 📌 참고문헌 (References)
-
 <details>
   <summary>📖 참고문헌 보기</summary>
 
-  ### **📌 Grid Search 관련 문헌**  
-  - **Liashchynskyi, P., & Liashchynskyi, P. (2019).**<br>
-    *Grid Search, Random Search, Genetic Algorithm: A Big Comparison for NAS.*<br>
-    *arXiv preprint arXiv:1912.06059.*<br>
-    [[논문 링크]](https://arxiv.org/abs/1912.06059?utm_source=chatgpt.com)  
+  <h3>📌 Grid Search 관련 문헌</h3>
+  <ul>
+    <li><strong>Liashchynskyi, P., & Liashchynskyi, P. (2019).</strong><br>
+      <i>Grid Search, Random Search, Genetic Algorithm: A Big Comparison for NAS.</i><br>
+      <a href="https://arxiv.org/abs/1912.06059?utm_source=chatgpt.com">[논문 링크]</a>
+    </li>
+    <li><strong>Scikit-learn: GridSearchCV</strong><br>
+      <a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html">[공식 문서]</a>
+    </li>
+    <li><strong>Dremio: What is Grid Search?</strong><br>
+      <a href="https://www.dremio.com/wiki/grid-search/">[참고 자료]</a>
+    </li>
+  </ul>
 
-  - **Scikit-learn: GridSearchCV**<br>
-    [[공식 문서]](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)  
+  <h3>📌 Random Search 관련 문헌</h3>
+  <ul>
+    <li><strong>Bergstra, J., & Bengio, Y. (2012).</strong><br>
+      <i>Random Search for Hyper-Parameter Optimization.</i><br>
+      <a href="https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf?utm_source=chatgpt.com">[논문 링크]</a>
+    </li>
+    <li><strong>HyperParameter Optimization Algorithm (feat. GP / TPE) - Hoonst</strong><br>
+      <a href="https://hoonst.github.io/2020/11/15/Algorithms-for-Hyperparameter-Optimization/?utm_source=chatgpt.com">[블로그 링크]</a>
+    </li>
+    <li><strong>[논문세미나 002] 하이퍼파라미터 최적화 목표를 정의하고 모델에 의존적이지 않은 Grid Search, Random Search 방법 등을 설명합니다 (김도형 연구원)</strong><br>
+      <a href="https://www.youtube.com/watch?v=U6bohNT-O5M&utm_source=chatgpt.com">[영상 링크]</a>
+    </li>
+  </ul>
 
-  - **Dremio: What is Grid Search?**<br>
-    [[참고 자료]](https://www.dremio.com/wiki/grid-search/)  
+  <h3>📌 Bayesian Optimization 관련 문헌</h3>
+  <ul>
+    <li><strong>Wang, X., Jin, Y., Schmitt, S., & Olhofer, M. (2022).</strong><br>
+      <i>Recent Advances in Bayesian Optimization.</i><br>
+      <a href="https://arxiv.org/abs/2206.03301?utm_source=chatgpt.com">[논문 링크]</a>
+    </li>
+    <li><strong>Paulson, J. A., & Tsay, C. (2024).</strong><br>
+      <i>Bayesian Optimization as a Flexible and Efficient Design Framework for Sustainable Process Systems.</i><br>
+      <a href="https://arxiv.org/abs/2401.16373?utm_source=chatgpt.com">[논문 링크]</a>
+    </li>
+    <li><strong>Wikipedia contributors. (2023).</strong><br>
+      <i>Bayesian Optimization.</i><br>
+      <a href="https://en.wikipedia.org/wiki/Bayesian_optimization?utm_source=chatgpt.com">[위키백과 링크]</a>
+    </li>
+    <li><strong>Brochu, E., Cora, V. M., & de Freitas, N. (2010).</strong><br>
+      <i>A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning.</i><br>
+      <a href="https://arxiv.org/abs/1012.2599?utm_source=chatgpt.com">[논문 링크]</a>
+    </li>
+  </ul>
 
-  ---
-
-  ### **📌 Random Search 관련 문헌**  
-  - **Bergstra, J., & Bengio, Y. (2012).**<br>
-    *Random Search for Hyper-Parameter Optimization.*<br>
-    *Journal of Machine Learning Research, 13, 281-305.*<br>
-    [[논문 링크]](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf?utm_source=chatgpt.com)  
-
-  - **HyperParameter Optimization Algorithm (feat. GP / TPE) - Hoonst**<br>
-    [[블로그 링크]](https://hoonst.github.io/2020/11/15/Algorithms-for-Hyperparameter-Optimization/?utm_source=chatgpt.com)  
-
-  - **[논문세미나 002] 하이퍼파라미터 최적화 목표를 정의하고 모델에 의존적이지 않은 Grid Search, Random Search 방법 등을 설명합니다 (김도형 연구원)**<br>
-    [[영상 링크]](https://www.youtube.com/watch?v=U6bohNT-O5M&utm_source=chatgpt.com)  
-
-  ---
-
-  ### **📌 Bayesian Optimization 관련 문헌**  
-  - **Wang, X., Jin, Y., Schmitt, S., & Olhofer, M. (2022).**<br>
-    *Recent Advances in Bayesian Optimization.*<br>
-    *arXiv preprint arXiv:2206.03301.*<br>
-    [[논문 링크]](https://arxiv.org/abs/2206.03301?utm_source=chatgpt.com)  
-
-  - **Paulson, J. A., & Tsay, C. (2024).**<br>
-    *Bayesian Optimization as a Flexible and Efficient Design Framework for Sustainable Process Systems.*<br>
-    *arXiv preprint arXiv:2401.16373.*<br>
-    [[논문 링크]](https://arxiv.org/abs/2401.16373?utm_source=chatgpt.com)  
-
-  - **Wikipedia contributors. (2023).**<br>
-    *Bayesian Optimization.*<br>
-    *Wikipedia, The Free Encyclopedia.*<br>
-    [[위키백과 링크]](https://en.wikipedia.org/wiki/Bayesian_optimization?utm_source=chatgpt.com)  
-
-  - **Brochu, E., Cora, V. M., & de Freitas, N. (2010).**<br>
-    *A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning.*<br>
-    *arXiv preprint arXiv:1012.2599.*<br>
-    [[논문 링크]](https://arxiv.org/abs/1012.2599?utm_source=chatgpt.com)  
-
-  ---
-
-  ### **📌 Optuna 관련 문헌**  
-  - **Akiba, T., Sano, S., Yanase, T., Ohta, T., & Koyama, M. (2019).**<br>
-    *Optuna: A Next-generation Hyperparameter Optimization Framework.*<br>
-    *arXiv preprint arXiv:1907.10902.*<br>
-    [[논문 링크]](https://arxiv.org/abs/1907.10902?utm_source=chatgpt.com)  
-
-  - **Shekhar, S., Bansode, A., & Salim, A. (2022).**<br>
-    *A Comparative Study of Hyper-Parameter Optimization Tools.*<br>
-    *arXiv preprint arXiv:2201.06433.*<br>
-    [[논문 링크]](https://arxiv.org/abs/2201.06433?utm_source=chatgpt.com)  
-
-  - **Optuna 기초 사용법.**<br>
-    [[블로그 링크]](https://velog.io/%40kyyle/Optuna-%EA%B8%B0%EC%B4%88?utm_source=chatgpt.com)  
+  <h3>📌 Optuna 관련 문헌</h3>
+  <ul>
+    <li><strong>Akiba, T., Sano, S., Yanase, T., Ohta, T., & Koyama, M. (2019).</strong><br>
+      <i>Optuna: A Next-generation Hyperparameter Optimization Framework.</i><br>
+      <a href="https://arxiv.org/abs/1907.10902?utm_source=chatgpt.com">[논문 링크]</a>
+    </li>
+    <li><strong>Shekhar, S., Bansode, A., & Salim, A. (2022).</strong><br>
+      <i>A Comparative Study of Hyper-Parameter Optimization Tools.</i><br>
+      <a href="https://arxiv.org/abs/2201.06433?utm_source=chatgpt.com">[논문 링크]</a>
+    </li>
+    <li><strong>Optuna 기초 사용법</strong><br>
+      <a href="https://velog.io/%40kyyle/Optuna-%EA%B8%B0%EC%B4%88?utm_source=chatgpt.com">[블로그 링크]</a>
+    </li>
+  </ul>
 
 </details>
