@@ -2,7 +2,7 @@
 layout: post
 title: Hyperparameter Optimization
 date: 2025-02-28 12:00:00 +0900
-categories: [Aritificail Intelligence, Machine Learning Theory]
+categories: [Aritificail Intelligence]
 tags: [Hyperparameter, Grid Search, Random Search, Bayesian Optimization, Optuna]
 ---
 
