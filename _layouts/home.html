@@ -6,26 +6,21 @@ title: Home
 <h1>{{ site.title }}</h1>
 <p>{{ site.description }}</p>
 
-<!-- 📌 카테고리 목록 추가 -->
-<h2>📂 카테고리 목록</h2>
-<ul>
-  {% for category in site.data.categories %}
-    <li>
-      <strong>{{ category.name }}</strong>
-      <ul>
-        {% for subcategory in category.subcategories %}
-          <li><a href="{{ site.baseurl }}/categories/{{ subcategory.slug }}/">{{ subcategory.name }}</a></li>
-        {% endfor %}
-      </ul>
-    </li>
-  {% endfor %}
-  <li><strong><a href="{{ site.baseurl }}/categories/project/">Project</a></strong></li>
-</ul>
+<!-- 📌 최근 글 목록 -->
+{% for post in paginator.posts %}
+  <div class="post-preview">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="post-meta">{{ post.date | date: "%d %b %Y" }}</p>
+    <p>{{ post.excerpt }}</p>
+  </div>
+{% endfor %}
 
-<!-- 📌 최신 글 목록 -->
-<h2>📝 최신 글</h2>
-<ul>
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y-%m-%d" }})</li>
-  {% endfor %}
-</ul>
+<!-- 📌 이전/다음 페이지 네비게이션 -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Older</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Newer</a>
+  {% endif %}
+</div>
