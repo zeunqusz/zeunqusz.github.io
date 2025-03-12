@@ -4,7 +4,7 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{% assign category_name = page.category %}
+{% assign category_name = page.title | downcase | replace: " ", "-" %}
 {% assign category_posts = site.categories[category_name] %}
 
 {% if category_posts.size > 0 %}
