@@ -2,7 +2,6 @@
 layout: page
 title: "Project"
 permalink: /categories/project/
-category: project
 ---
 
 ## 🔧 Project 관련 글
