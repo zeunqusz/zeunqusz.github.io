@@ -2,7 +2,7 @@
 layout: post
 title: "제조공정오류의 원인파악 및 대응시간 축소"
 date: 2022-10-14 12:00:00 +0900
-categories: [Project]
+categories: [project]
 tags: [Manufacturing Analytics, Process Optimization, Error Prediction, Process Improvement]
 ---
 
