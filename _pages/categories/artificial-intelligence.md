@@ -2,7 +2,6 @@
 layout: category
 title: "Artificial Intelligence"
 permalink: /categories/artificial-intelligence/
-category: artificial-intelligence
 ---
 
 ## 🤖 Artificial Intelligence 관련 글
