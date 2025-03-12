@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Takoyaki: GitHub 저장소 소개"
+title: "제조공정오류의 원인파악 및 대응시간 축소"
 date: 2022-10-14 12:00:00 +0900
 categories: [Project]
 tags: [Manufacturing Analytics, Process Optimization, Error Prediction, Process Improvement]
