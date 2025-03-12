@@ -2,7 +2,6 @@
 layout: category
 title: "Problem Solving"
 permalink: /categories/probelm-solving/
-category: probelm-solving
 ---
 
 ## 🏆 Problem Solving 관련 글
