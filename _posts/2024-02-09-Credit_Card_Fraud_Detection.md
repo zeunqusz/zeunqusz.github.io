@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 통신사 고객 이탈 예측 모형.
+title: 신용카드 이상거래 탐지 모형 개발
 date: 2025-02-09 12:00:00 +0900
 categories: [Project]
 tags: [Anomaly Detection, Fraud Detection, XGBoost, Machine Learning, AUC-PR]
