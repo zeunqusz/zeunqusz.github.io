@@ -9,7 +9,7 @@ permalink: /categories/artificial-intelligence/
 {% assign category_name = "artificial-intelligence" %}
 {% assign category_posts = site.categories[category_name] %}
 
-{% if category_posts.size > 0 %}
+{% if category_posts and category_posts.size > 0 %}
   <ul>
     {% for post in category_posts %}
       <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> ({{ post.date | date: "%Y-%m-%d" }})</li>
