@@ -2,7 +2,7 @@
 layout: post
 title: 통신사 고객 이탈 예측 모형.
 date: 2025-02-23 12:00:00 +0900
-categories: [Project]
+categories: [project]
 tags: [CustomerChrun, LightGBM, Classification, AUC-PR]
 ---
 # Intro
