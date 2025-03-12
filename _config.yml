@@ -1,18 +1,26 @@
 title: ZEUNQUSZ ANALYSIS HUB
-baseurl: "" # 사이트 URL 설정
-url: "https://zeunqusz.github.io" # 본인의 GitHub Pages 주소
+baseurl: ""  # 사이트 URL 설정
+url: "https://zeunqusz.github.io"  # 본인의 GitHub Pages 주소
 
+# 플러그인 목록 (중복 없이 정리)
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-paginate
   - jekyll-nbconvert
 
+# 테마 유지 (변경 없음)
 remote_theme: zivhub/monophase@main
+
+# Markdown 설정
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-  
-paginate: 5 # 한 페이지에 표시할 글 개수
-future: true # 미래 날짜의 글을 표시할지 여부
+
+# 페이지네이션 설정
+paginate: 5
+paginate_path: "/page:num/"
+
+# 미래 날짜의 글 표시 여부
+future: true
