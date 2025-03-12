@@ -4,6 +4,9 @@ url: "https://zeunqusz.github.io" # 본인의 GitHub Pages 주소
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-nbconvert
 
 remote_theme: zivhub/monophase@main
 markdown: kramdown
@@ -11,14 +14,5 @@ kramdown:
   input: GFM
   hard_wrap: false
   
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-nbconvert
 paginate: 5 # 한 페이지에 표시할 글 개수
 future: true # 미래 날짜의 글을 표시할지 여부
-
-collections:
-  categories:
-    output: true
-    permalink: /categories/:path/
